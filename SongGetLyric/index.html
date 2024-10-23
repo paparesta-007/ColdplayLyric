@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyrics Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <audio id="audioPlayer" controls>
+            <source src="Yellow.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="lyrics" id="lyricsContainer"></div>
+        
+        <div id="nextLine" class="next-line">Next line: <span id="nextLineText"></span></div>
+        <div id="timeDisplay" class="time-display"></div>
+
+        <button id="saveJson">Save Times to JSON</button>
+        <pre id="jsonOutput"></pre>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
