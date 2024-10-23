@@ -1,16 +1,40 @@
 "use strict";
 
 window.onload = function () {
+    // Carica i dati delle canzoni
+    const songs=["A Sky Full Of Stars","The Scientist","Fix You","Yellow","Viva La Vida"]
     // Elementi del DOM
     let divLyric = document.getElementById("divLyric");
     let DivSongsHome = document.getElementsByClassName("DivSongsHome")[0];
     let imgLogo = document.getElementsByClassName("imgLogo")[0];
-    const btnPlayButtons = document.querySelectorAll(".btnPlaySong");
-
+    
+    loadCard()
+    function loadCard() {
+        for(const card of songs){
+            let divCard= document.createElement("div");
+            divCard.classList.add("card");
+            DivSongsHome.appendChild(divCard);
+            let img=document.createElement("img");
+            img.src = `./img/Album/${card}.png`;
+            divCard.appendChild(img);
+            let divInfo=document.createElement("div");
+            divInfo.classList.add("SongInfo");
+            divCard.appendChild(divInfo);
+            let h4=document.createElement("h4");
+            divInfo.appendChild(h4);
+            let b=document.createElement("b");
+            b.textContent=card;
+            h4.textContent=card;
+            let btnPlay=document.createElement("button");
+            btnPlay.classList.add("btnPlaySong");
+            btnPlay.textContent="Play";
+            divInfo.appendChild(btnPlay);
+        }
+    }
     // Variabili globali per audio e timer
     let audio = null;
     let ms = null;
-
+    const btnPlayButtons = document.querySelectorAll(".btnPlaySong");
     // Aggiungi un listener di eventi a ciascun bottone
     for (const btnSong of btnPlayButtons) {
         btnSong.addEventListener('click', function () {
@@ -81,6 +105,7 @@ window.onload = function () {
                 divLyric.innerHTML = ""; // Pulisci il div dei testi
                 DivSongsHome.style.display = "flex"; // Mostra di nuovo le card delle canzoni
             }
+            console.log("Current time:", Math.round(currentTime));
         }, 100);
     }
 
@@ -114,7 +139,7 @@ window.onload = function () {
     }
 
     const stars = ["⋆", "｡", "°", "✩", "✧", "★", "☆", "✦", "❋", "✵", "✶"];
-    createStar(); // Crea una stella all'avvio
+    // createStar();
 
     function createStar() {
         const star = document.createElement("span");
@@ -123,6 +148,16 @@ window.onload = function () {
         star.style.top = `${Math.random() * 100}vh`;
         star.textContent = stars[Math.floor(Math.random() * stars.length)];
         document.body.appendChild(star);
-        setTimeout(() => star.remove(), 4000); // Rimuovi la stella dopo 4 secondi
+        setTimeout(() => star.remove(), 3000); // Rimuovi la stella dopo 4 secondi
     }
+    // Define a media query
+    const mediaQuery = window.matchMedia("(max-width: 600px)");
+
+    // Check if the media query is currently matched
+    if (mediaQuery.matches) {
+        setInterval(createStar, 300); // Crea una stella casuale ogni secondo
+    } else {
+    console.log("Viewport is larger than 768px");
+    }
+
 };
