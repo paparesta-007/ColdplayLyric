@@ -24,117 +24,118 @@ const ASkyFullOfStarslyrics = [
   [229260, "You're such a heavenly view"],
 ];
 const FixYouLyrics = [
-  [300, "♪"],
-  [14390, "When you try your best, but you don't succeed"],
-  [22090, "When you get what you want, but not what you need"],
-  [28470, "When you feel so tired, but you can't sleep"],
-  [34570, "Stuck in reverse"],
-  [42040, "And the tears come streaming down your face"],
-  [49530, "When you lose something you can't replace"],
-  [55640, "When you love someone, but it goes to waste"],
-  [62280, "Could it be worse?"],
-  [72890, "Lights will guide you home"],
-  [80340, "And ignite your bones"],
-  [86720, "And I will try to fix you"],
-  [105310, "And high up above, or down below"],
-  [113280, "When you're too in love to let it go"],
-  [119120, "But if you never try, you'll never know"],
-  [125770, "Just what you're worth"],
-  [135320, "Lights will guide you home"],
-  [143290, "And ignite your bones"],
-  [150200, "And I will try to fix you"],
-  [151000, "♪"],
-  [211030, "Tears stream down your face"],
-  [219900, "When you lose something you cannot replace"],
-  [224570, "Tears stream down your face, and I"],
-  [238390, "Tears stream down your face"],
-  [245560, "I promise you I will learn from my mistakes"],
-  [251930, "Tears stream down your face, and I"],
-  [265480, "Lights will guide you home"],
-  [273710, "And ignite your bones"],
-  [279820, "And I will try to fix you"],
+  [1100, "♪"],
+  [14300, "When you try your best, but you don't succeed"],
+  [21400, "When you get what you want, but not what you need"],
+  [28400, "When you feel so tired, but you can't sleep"],
+  [34700, "Stuck in reverse"],
+  [42600, "And the tears come streaming down your face"],
+  [49600, "When you lose something you can't replace"],
+  [56600, "When you love someone, but it goes to waste"],
+  [62900, "Could it be worse?"],
+  [73100, "Lights will guide you home"],
+  [80000, "And ignite your bones"],
+  [86900, "And I will try to fix you"],
+  [106300, "And high up above, or down below"],
+  [113000, "When you're too in love to let it go"],
+  [120000, "But if you never try, you'll never know"],
+  [126200, "Just what you're worth"],
+  [136300, "Lights will guide you home"],
+  [143400, "And ignite your bones"],
+  [150300, "And I will try to fix you"],
+  [155800, "♪"],
+  [212000, "Tears stream down your face"],
+  [218100, "When you lose something you cannot replace"],
+  [226000, "Tears stream down your face, and I"],
+  [239400, "Tears stream down your face"],
+  [245300, "I promise you I will learn from my mistakes"],
+  [253100, "Tears stream down your face, and I"],
+  [266800, "Lights will guide you home"],
+  [273800, "And ignite your bones"],
+  [280200, "And I will try to fix you"],
 ];
 const TheScientistLyric = [
-  [500, "♪"],
-  [26940, "Come up to meet you, tell you I'm sorry"],
-  [33440, "You don't know how lovely you are"],
-  [39440, "I had to find you"],
-  [44220, "Tell you I need you"],
-  [46960, "Tell you I set you apart"],
-  [53440, "Tell me your secrets"],
-  [56220, "And ask me your questions"],
-  [59450, "Oh, let's go back to the start"],
-  [65950, "Running in circles"],
-  [69460, "Coming up tails"],
-  [72440, "Heads on a science apart"],
-  [78950, "Nobody said it was easy"],
-  [85690, "It's such a shame for us to part"],
-  [91460, "Nobody said it was easy"],
-  [98700, "No one ever said it would be this hard"],
-  [104745, "Oh, take me back to the start"],
-  [124950, "I was just guessing"],
-  [128220, "At numbers and figures"],
-  [131440, "Pulling the puzzles apart"],
-  [138200, "Questions of science"],
-  [141200, "Science and progress"],
-  [144950, "Do not speak as loud as my heart"],
-  [151200, "Tell me you love me"],
-  [153421, "Come back and haunt me"],
-  [155950, "Oh, and I rush to the start"],
-  [164421, "Running in circles"],
-  [167700, "Chasing our tails"],
-  [170950, "Coming back as we are"],
-  [177221, "Nobody said it was easy"],
-  [183690, "Oh, it's such a shame for us to part"],
-  [191070, "Nobody said it was easy"],
-  [196950, "No one ever said it would be so hard"],
-  [202710, "I'm going back to the start"],
-  [237700, "Oh-ooh ooh-ooh-ooh-ooh"],
-  [249950, "Ah-ooh ooh-ooh-ooh-ooh"],
-  [263440, "Oh-ooh ooh-ooh-ooh-ooh"],
-  [275950, "Oh-ooh ooh-ooh-ooh-ooh"],
+  [249, "♪"], // 549 - 300 = 249
+  [27915, "Come up to meet you, "], // 28215 - 300 = 27915
+  [31230, "tell you I'm sorry"], // 31530 - 300 = 31230
+  [34318, "You don't know how lovely you are"], // 34618 - 300 = 34318
+  [41168, "I had to find you"], // 41468 - 300 = 41168
+  [44264, "Tell you I need you"], // 44564 - 300 = 44264
+  [47609, "Tell you I set you apart"], // 47909 - 300 = 47609
+  [54162, "Tell me your secrets"], // 54462 - 300 = 54162
+  [57396, "And ask me your questions"], // 57696 - 300 = 57396
+  [60624, "Oh, let's go back to the start"], // 60924 - 300 = 60624
+  [67207, "Running in circles"], // 67507 - 300 = 67207
+  [70456, "Coming up tails"], // 70756 - 300 = 70456
+  [73736, "Heads on a science apart"], // 74036 - 300 = 73736
+  [80099, "Nobody said it was easy"], // 80399 - 300 = 80099
+  [86707, "It's such a shame for us to part"], // 87007 - 300 = 86707
+  [93047, "Nobody said it was easy"], // 93347 - 300 = 93047
+  [99779, "No one ever said it would be this hard"], // 99779 - 300 = 99779
+  [108616, "Oh, take me back to the start"], // 108916 - 300 = 108616
+  [139279, "I was just guessing"], // 139579 - 300 = 139279
+  [142511, "At numbers and figures"], // 142811 - 300 = 142511
+  [145814, "Pulling the puzzles apart"], // 146114 - 300 = 145814
+  [152374, "Questions of science"], // 152674 - 300 = 152374
+  [155641, "Science and progress"], // 155941 - 300 = 155641
+  [158914, "Do not speak as loud as my heart"], // 159214 - 300 = 158914
+  [165231, "Tell me you love me"], // 165531 - 300 = 165231
+  [168687, "Come back and haunt me"], // 168987 - 300 = 168687
+  [171842, "Oh, and I rush to the start"], // 172342 - 300 = 171842
+  [178648, "Running in circles"], // 178948 - 300 = 178648
+  [181852, "Chasing our tails"], // 182152 - 300 = 181852
+  [185235, "Coming back as we are"], // 185535 - 300 = 185235
+  [191175, "Nobody said it was easy"], // 191475 - 300 = 191175
+  [197851, "Oh, it's such a shame for us to part"], // 198151 - 300 = 197851
+  [204399, "Nobody said it was easy"], // 204699 - 300 = 204399
+  [211059, "No one ever said it would be so hard"], // 211359 - 300 = 211059
+  [220319, "I'm going back to the start"], // 220619 - 300 = 220319
+  [252054, "Oh-ooh ooh-ooh-ooh-ooh"], // 252354 - 300 = 252054
+  [264391, "Ah-ooh ooh-ooh-ooh-ooh"], // 264691 - 300 = 264391
+  [277538, "Oh-ooh ooh-ooh-ooh-ooh"], // 277838 - 300 = 277538
+  [290666, "Oh-ooh ooh-ooh-ooh-ooh"], // 290966 - 300 = 290666
 ];
 const YellowLyric = [
-  [500, "♪"],
-  [33240, "Look at the stars"],
-  [36010, "Look how they shine for you"],
-  [41500, "And everything you do"],
-  [47240, "Yeah, they were all yellow"],
-  [49990, "I came along"],
-  [52490, "I wrote a song for you"],
-  [58000, "And all the things you do"],
-  [63740, "And it was called 'Yellow'"],
-  [69250, "So then I took my turn"],
-  [74990, "Oh, what a thing to have done"],
-  [80240, "And it was all yellow"],
-  [89000, "Your skin, oh yeah, your skin and bones"],
-  [94500, "Turn into something beautiful"],
-  [100000, "Do you know, you know I love you so?"],
-  [107990, "You know I love you so"],
-  [110000, "♪"],
-  [132830, "I swam across"],
-  [135580, "I jumped across for you"],
-  [141080, "Oh, what a thing to do"],
-  [148830, "‘Cause you were all yellow"],
-  [149580, "I drew a line"],
-  [153330, "I drew a line for you"],
-  [157830, "Oh, what a thing to do"],
-  [163580, "And it was all yellow"],
-  [171830, "Your skin, oh yeah, your skin and bones"],
-  [175730, "Turn into something beautiful"],
-  [180830, "And you know"],
-  [183330, "For you, I'd bleed myself dry"],
-  [187840, "For you, I'd bleed myself dry"],
-  [190000, "♪"],
-  [215190, "It's true, look how they shine for you"],
-  [224190, "Look how they shine for you"],
-  [226690, "Look how they shine for"],
-  [235190, "Look how they shine for you"],
-  [240690, "Look how they shine for you"],
-  [246200, "Look how they shine"],
-  [248940, "Look at the stars"],
-  [251690, "Look how they shine for you"],
-  [257440, "And all the things that you do"],
+  [150, "♪"],
+  [33420, "Look at the stars"],
+  [36128, "Look how they shine for you"],
+  [41689, "And everything you do"],
+  [47618, "Yeah, they were all yellow"],
+  [50030, "I came along"],
+  [52893, "I wrote a song for you"],
+  [58401, "And all the things you do"],
+  [64201, "And it was called 'Yellow'"],
+  [69383, "So then I took my turn"],
+  [75075, "Oh, what a thing to have done"],
+  [80850, "And it was all yellow"],
+  [89019, "Your skin, oh yeah, your skin and bones"],
+  [94615, "Turn into something beautiful"],
+  [100088, "Do you know, you know I love you so?"],
+  [108114, "You know I love you so"],
+  [110464, "♪"],
+  [133014, "I swam across"],
+  [135785, "I jumped across for you"],
+  [141308, "Oh, what a thing to do"],
+  [146896, "‘Cause you were all yellow"],
+  [149767, "I drew a line"],
+  [152449, "I drew a line for you"],
+  [157883, "Oh, what a thing to do"],
+  [163742, "And it was all yellow"],
+  [172081, "Your skin, oh yeah, your skin and bones"],
+  [177624, "Turn into something beautiful"],
+  [183114, "And you know"],
+  [185456, "For you, I'd bleed myself dry"],
+  [191087, "For you, I'd bleed myself dry"],
+  [193537, "♪"],
+  [215498, "It's true, look how they shine for you"],
+  [224326, "Look how they shine for you"],
+  [229860, "Look how they shine for"],
+  [235360, "Look how they shine for you"],
+  [240929, "Look how they shine for you"],
+  [246479, "Look how they shine"],
+  [249079, "Look at the stars"],
+  [252067, "Look how they shine for you"],
+  [257863, "And all the things that you do"],
 ];
 const VivaLaVidaLyric = [
   [500, "♪"],
