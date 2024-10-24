@@ -2,7 +2,7 @@
 
 window.onload = function () {
     // Carica i dati delle canzoni
-    const songs=["A Sky Full Of Stars","The Scientist","Fix You","Yellow","Viva La Vida"]
+    const songs=["A Sky Full Of Stars","The Scientist","Fix You","Yellow","Viva La Vida","Paradise","Hymn For The Weekend"];
     // Elementi del DOM
     let divLyric = document.getElementById("divLyric");
     let DivSongsHome = document.getElementsByClassName("DivSongsHome")[0];

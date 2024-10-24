@@ -95,7 +95,7 @@ function updateTimeDisplay() {
     clickTimes.forEach((time, index) => {
         if (time !== undefined) {
             const timeEntry = document.createElement('p');
-            timeEntry.textContent = `Line ${index + 1}: ${time.toFixed(2)} ms`;
+            timeEntry.textContent = `Line ${index + 1}: ${time.toFixed(2)} ms ${lyrics[index]}`
             timeDisplay.appendChild(timeEntry);
         }
     });
