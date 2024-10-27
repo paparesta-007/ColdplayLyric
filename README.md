@@ -23,7 +23,6 @@ The page contains a logo and two main sections:
 
 The script is responsible for loading song data, managing audio playback, and displaying lyrics.
 
-## Key Features
 
 ## How to Use
 After loading the HTML in a browser, choose a song to play and click the "play" button. The song will automatically start playing, and the lyrics will be synchronized. To return home, click on the "COLDPLAY" logo in the top left corner of the page.
