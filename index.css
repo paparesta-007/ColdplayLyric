@@ -9,8 +9,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: url("./sky.jpg");
-    /* background-color: rgb(42, 42, 99); */
+    /* background-image: url("./sky.jpg"); */
+    background: #1a1a1a;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,6 +20,7 @@ body{
     align-items: center;
     /* overflow: hidden; */
 
+    /* cursor: none; */
 }
 .lyric{
     position: absolute;
@@ -61,15 +62,15 @@ body{
     display: inline-block;
     padding: 10px 20px;
     border: none;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    /* cursor: pointer; */
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(78, 102, 126);
     border-radius: 5px;
 }
 .imgLogo{
     /* width: 40px; */
     height: 30px;
-    cursor: pointer;
+    /* cursor: pointer; */
     /* margin-right: 20px; */
 }
 /* Star animation */
@@ -110,8 +111,9 @@ body{
     align-items: flex-start;
     gap: 20px;
     width: 100%;
-    max-width: 700px; /* (150px card + 20px gap) * 4 cards */
-    height: auto;
+    max-width: 710px; /* (150px card + 20px gap) * 4 cards */
+    height: 500px;
+    overflow-y: auto;
     margin: 0 auto;
     padding: 20px;
 }
@@ -158,10 +160,10 @@ body{
 }
 .btnPlaySong{
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: rgb(206, 206, 206);
     border: none;
     margin: 10px 0;
-    cursor: pointer;
+    /* cursor: none;     */
     padding: 10px 20px;
     border-radius: 5px;
 }

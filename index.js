@@ -2,7 +2,7 @@
 
 window.onload = function () {
     // Carica i dati delle canzoni
-    const songs=["A Sky Full Of Stars","The Scientist","Fix You","Yellow","Viva La Vida","Paradise","Hymn For The Weekend"];
+    const songs=["A Sky Full Of Stars","The Scientist","Fix You","Yellow","Viva La Vida","Paradise","Le Luci Della Città",];
     // Elementi del DOM
     let divLyric = document.getElementById("divLyric");
     let DivSongsHome = document.getElementsByClassName("DivSongsHome")[0];
@@ -103,7 +103,7 @@ window.onload = function () {
                 clearInterval(ms);
                 ms = null; // Resetta il timer
                 divLyric.innerHTML = ""; // Pulisci il div dei testi
-                DivSongsHome.style.display = "flex"; // Mostra di nuovo le card delle canzoni
+                // DivSongsHome.style.display = "flex"; // Mostra di nuovo le card delle canzoni
             }
             console.log("Current time:", Math.round(currentTime));
         }, 100);
@@ -159,5 +159,10 @@ window.onload = function () {
     } else {
     console.log("Viewport is larger than 768px");
     }
+    // const arrow = document.querySelector('.arrow');
 
+    // document.addEventListener('mousemove', (e) => {
+    //   arrow.style.left = `${e.clientX}px`;
+    //   arrow.style.top = `${e.clientY}px`;
+    // });
 };

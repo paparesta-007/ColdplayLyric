@@ -1,8 +1,11 @@
 const ASkyFullOfStarslyrics = [
   [500, "♪"],
-  [16650, "'Cause you're a sky, 'cause you're a sky full of stars"],
+  [16650, "'Cause you're a sky,"],
+  [19000," 'cause you're a sky "],
+  [21000,"full of stars"],
   [24400, "I'm gonna give you my heart"],
-  [32150, "'Cause you're a sky, 'cause you're a sky full of stars"],
+  [32150, "'Cause you're a sky, "],
+  [34400,"'cause you're a sky full of stars"],
   [40150, "'Cause you light up the path"],
   [47150, "I don't care, go on and tear me apart"],
   [55410, "I don't care if you do, ooh ooh ooh"],

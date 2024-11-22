@@ -1,0 +1,31 @@
+:root {
+    --cursor-color: gray;
+  }
+
+  body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: #1a1a1a;
+    cursor: none;
+  }
+
+  .arrow {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    pointer-events: none;
+    transform: rotate(-45deg);
+    z-index: 1000;
+  }
+
+  .arrow::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 26px solid var(--cursor-color); /* Adjusted from 20px to 26px */
+    transform-origin: center;
+  }
